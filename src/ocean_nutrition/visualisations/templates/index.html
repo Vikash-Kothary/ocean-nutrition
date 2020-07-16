@@ -1,0 +1,43 @@
+{% extends "_layout.html" %}
+<!-- START body-->
+{% block body %}
+<h1 class="title">Home</h1>
+<h3 class="subtitle">OCEAN Nutrition</h3>
+
+<p class="nav">
+    <a href="{{ url_for('views.index') }}">Home</a>
+    | <a href="{{ url_for('views.diary') }}">Diary</a>
+    | <a href="{{ url_for('views.search') }}">Search</a>
+    | <a href="{{ url_for('views.index') }}">Profile</a>
+</p>
+{% endblock %}
+<!-- END body-->
+
+<!-- START css -->
+{% block css %}
+<style>
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.title, .subtitle, .nav {
+    text-align: center;
+    margin-bottom: 10px;
+
+    .a {
+    	padding-right: 10px;
+    	padding-left: 10px;
+    }
+}
+
+</style>
+{% endblock %}
+<!-- END css -->
+
+<!-- START js -->
+{% block js %}
+
+{% endblock %}
+<!-- END js -->

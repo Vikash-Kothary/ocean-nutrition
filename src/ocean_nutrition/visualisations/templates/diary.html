@@ -1,0 +1,64 @@
+{% extends "_layout.html" %}
+<!-- START body-->
+{% block body %}
+<h1 class="title">Diary</h1>
+<h3 class="subtitle">OCEAN Nutrition</h3>
+
+<p class="nav">
+    <a href="{{ url_for('views.index') }}">Home</a>
+    | <a href="{{ url_for('views.diary') }}">Diary</a>
+    | <a href="{{ url_for('views.search') }}">Search</a>
+    | <a href="{{ url_for('views.index') }}">Profile</a>
+</p>
+
+<h3>Current Metabolic Rate: <span id="result">...</span></h3>
+
+<form method="POST" action="#" style="display: none;">
+  <label for="fname">Calorie Density (kcal/100g):</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Weight (g):</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+{% endblock %}
+<!-- END body-->
+
+<!-- START css -->
+{% block css %}
+<style>
+
+.title, .subtitle, .nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+
+    .a {
+    	padding-right: 10px;
+    	padding-left: 10px;
+    }
+}
+
+</style>
+{% endblock %}
+<!-- END css -->
+
+<!-- START js -->
+{% block js %}
+<script>
+(function get_average_calorie_density(){
+    const url = `/tracker`;
+    fetch(url)
+    .then((resp) => resp.json())
+    .then(function(data) {
+        document.getElementById('result').innerHTML = data['average_calorie_density']
+    })
+    .catch(function(error){
+        alert(error)
+    })
+
+})();
+</script>
+{% endblock %}
+<!-- END js -->

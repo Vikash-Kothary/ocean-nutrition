@@ -1,0 +1,43 @@
+ansicon==1.89.0; platform_system == "Windows"
+beautifulsoup4==4.9.1
+blessed==1.17.8
+certifi==2020.6.20
+cffi==1.14.0; sys_platform == "linux"
+chardet==3.0.4
+click==7.1.2
+colorama==0.4.3
+commonmark==0.9.1
+cryptography==2.9.2; sys_platform == "linux"
+flask==1.1.2
+idna==2.10
+importlib-metadata==1.7.0; python_version < "3.8"
+itsdangerous==1.1.0
+jeepney==0.4.3; sys_platform == "linux"
+jinja2==2.11.2
+jinxed==1.0.0; platform_system == "Windows"
+keyring==21.2.1
+lxml==4.5.2
+markupsafe==1.1.1
+measurement==3.2.0
+mpmath==1.1.0
+myfitnesspal==1.16.1
+numpy==1.19.0
+-e git+https://github.com/vikash-kothary/openfoodfacts-python@455c6f49ff83327001d7f8153f72e1c9059022c0#egg=openfoodfacts
+pandas==1.0.5
+pprintpp==0.4.0
+pycparser==2.20; sys_platform == "linux"
+pygments==2.6.1
+python-dateutil==2.8.1
+pytz==2020.1
+pywin32-ctypes==0.2.0; sys_platform == "win32"
+requests==2.24.0
+rich==2.3.1
+secretstorage==3.1.2; sys_platform == "linux"
+six==1.15.0
+soupsieve==1.9.6
+sympy==1.6.1
+typing-extensions==3.7.4.2
+urllib3==1.25.9
+wcwidth==0.2.5
+werkzeug==1.0.1
+zipp==3.1.0; python_version < "3.8"

@@ -1,0 +1,9 @@
+strict: true
+theme: readthedocs
+site_name: OCEAN Nutrition
+site_description: 
+site_author: Vikash Kothary
+site_url: https://vikash-kothary.github.io/ocean-nutrition
+repo_url: https://github.com/vikash-kothary/ocean-nutrition
+docs_dir: src
+site_dir: build
