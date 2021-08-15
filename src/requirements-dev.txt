@@ -76,7 +76,7 @@ pytz==2020.1
 pywin32==301; sys_platform == "win32"
 pywin32-ctypes==0.2.0; sys_platform == "win32"
 pywinpty==0.5.7; os_name == "nt"
-pyyaml==5.3.1
+pyyaml==5.4
 pyzmq==19.0.1
 qtconsole==4.7.5
 qtpy==1.9.0
