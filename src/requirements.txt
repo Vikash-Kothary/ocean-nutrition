@@ -37,7 +37,7 @@ six==1.15.0
 soupsieve==1.9.6
 sympy==1.6.1
 typing-extensions==3.7.4.2
-urllib3==1.25.9
+urllib3==1.26.5
 wcwidth==0.2.5
 werkzeug==1.0.1
 zipp==3.1.0; python_version < "3.8"
