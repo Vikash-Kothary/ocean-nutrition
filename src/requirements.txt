@@ -16,7 +16,7 @@ jeepney==0.4.3; sys_platform == "linux"
 jinja2==2.11.3
 jinxed==1.0.0; platform_system == "Windows"
 keyring==21.2.1
-lxml==4.6.2
+lxml==4.6.5
 markupsafe==1.1.1
 measurement==3.2.0
 mpmath==1.1.0
