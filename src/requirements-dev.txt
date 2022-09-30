@@ -30,7 +30,7 @@ jedi==0.17.1
 jeepney==0.4.3; sys_platform == "linux"
 jinja2==2.11.3
 jinxed==1.0.0; platform_system == "Windows"
-joblib==0.16.0; python_version > "2.7"
+joblib==1.2.0; python_version > "2.7"
 json5==0.9.5
 jsonschema==3.2.0
 jupyter==1.0.0
